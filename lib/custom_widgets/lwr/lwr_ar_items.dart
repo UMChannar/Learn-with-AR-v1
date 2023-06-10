@@ -241,10 +241,7 @@ class _LwrARItemsState extends State<LwrARItems> {
                 top: 10,
                 child: IconButton(
                   onPressed: () {
-                    Navigator.pushReplacementNamed(
-                      context,
-                      LearnEnglish.routeName,
-                    );
+                    Navigator.pop(context);
                   },
                   icon: const Icon(Icons.arrow_back_ios),
                 ),

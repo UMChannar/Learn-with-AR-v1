@@ -415,8 +415,28 @@ List<Map> urduData = [
   {
     'title1': 'آ',
     'title2': 'ا',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'آم',
+          'assets/audio/urdu/words/mango.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/mango.glb',
+          'آم',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'انگور',
+          'assets/audio/urdu/words/grapes.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/grapes.glb',
+          'انگور',
+        ),
+      );
+    },
     'color1': const Color(0x00ff5733),
     'color2': const Color(0x006d4c41),
     'audio1': 'assets/audio/urdu/phonics/alif-madd.mp3',
@@ -425,8 +445,28 @@ List<Map> urduData = [
   {
     'title1': 'ب',
     'title2': 'پ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'بلی',
+          'assets/audio/urdu/words/cat.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/cat.glb',
+          'بلی',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'پتنگ',
+          'assets/audio/urdu/words/kite.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/kite.glb',
+          'پتنگ',
+        ),
+      );
+    },
     'color1': const Color(0x009b59b6),
     'color2': const Color(0x002980b9),
     'audio1': 'assets/audio/urdu/phonics/be.mp3',
@@ -435,8 +475,28 @@ List<Map> urduData = [
   {
     'title1': 'ت',
     'title2': 'ٹ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'تتلی',
+          'assets/audio/urdu/words/butterfly.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/butterfly.glb',
+          'تتلی',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ٹماٹر',
+          'assets/audio/urdu/words/tomato.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/tomato.glb',
+          'ٹماٹر',
+        ),
+      );
+    },
     'color1': const Color(0x00f1c40f),
     'color2': const Color(0x00f39c12),
     'audio1': 'assets/audio/urdu/phonics/te.mp3',
@@ -445,8 +505,28 @@ List<Map> urduData = [
   {
     'title1': 'ث',
     'title2': 'ج',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ثمر',
+          'assets/audio/urdu/words/fruit.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/fruit.glb',
+          'ثمر',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
     'color1': const Color(0x00e67e22),
     'color2': const Color(0x00d35400),
     'audio1': 'assets/audio/urdu/phonics/se.mp3',
@@ -455,8 +535,28 @@ List<Map> urduData = [
   {
     'title1': 'ح',
     'title2': 'خ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
     'color1': const Color(0x00c0392b),
     'color2': const Color(0x00cd6155),
     'audio1': 'assets/audio/urdu/phonics/baree-he.mp3',
@@ -465,8 +565,28 @@ List<Map> urduData = [
   {
     'title1': 'د',
     'title2': 'ڈ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
     'color1': const Color(0x00e74c3c),
     'color2': const Color(0x00c0392b),
     'audio1': 'assets/audio/urdu/phonics/daal.mp3',
@@ -475,8 +595,28 @@ List<Map> urduData = [
   {
     'title1': 'ذ',
     'title2': 'ر',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
     'color1': const Color(0x00f1c40f),
     'color2': const Color(0x00f39c12),
     'audio1': 'assets/audio/urdu/phonics/zaal.mp3',
@@ -485,8 +625,28 @@ List<Map> urduData = [
   {
     'title1': 'ز',
     'title2': 'ڑ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'جہاز',
+          'assets/audio/urdu/words/airplane.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/yak.glb',
+          'جہاز',
+        ),
+      );
+    },
     'color1': const Color(0x00e67e22),
     'color2': const Color(0x00d35400),
     'audio1': 'assets/audio/urdu/phonics/ze.mp3',
@@ -495,8 +655,28 @@ List<Map> urduData = [
   {
     'title1': 'س',
     'title2': 'ش',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'سکہ',
+          'assets/audio/urdu/words/coin.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/coin.glb',
+          'سکہ',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
     'color1': const Color(0x00c0392b),
     'color2': const Color(0x00cd6155),
     'audio1': 'assets/audio/urdu/phonics/seen.mp3',
@@ -505,8 +685,28 @@ List<Map> urduData = [
   {
     'title1': 'ص',
     'title2': 'ض',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
     'color1': const Color(0x00f1c40f),
     'color2': const Color(0x00f39c12),
     'audio1': 'assets/audio/urdu/phonics/svaad.mp3',
@@ -525,8 +725,28 @@ List<Map> urduData = [
   {
     'title1': 'ع',
     'title2': 'غ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
     'color1': const Color(0x00c0392b),
     'color2': const Color(0x00cd6155),
     'audio1': 'assets/audio/urdu/phonics/ain.mp3',
@@ -545,8 +765,28 @@ List<Map> urduData = [
   {
     'title1': 'ک',
     'title2': 'گ',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
     'color1': const Color(0x00e67e22),
     'color2': const Color(0x00d35400),
     'audio1': 'assets/audio/urdu/phonics/kaaf.mp3',
@@ -555,8 +795,28 @@ List<Map> urduData = [
   {
     'title1': 'ل',
     'title2': 'م',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
     'color1': const Color(0x00c0392b),
     'color2': const Color(0x00cd6155),
     'audio1': 'assets/audio/urdu/phonics/laam.mp3',
@@ -565,8 +825,28 @@ List<Map> urduData = [
   {
     'title1': 'ن',
     'title2': 'و',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'شیر',
+          'assets/audio/urdu/words/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'شیر',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ویگن',
+          'assets/audio/urdu/words/car.mp3',
+          'https://github.com/UMChannar/Models/raw/master/urdu/car.glb',
+          'ویگن',
+        ),
+      );
+    },
     'color1': const Color(0x00f1c40f),
     'color2': const Color(0x00f39c12),
     'audio1': 'assets/audio/urdu/phonics/noon.mp3',
@@ -575,8 +855,28 @@ List<Map> urduData = [
   {
     'title1': 'ہ',
     'title2': 'ی',
-    'onTap1': () {},
-    'onTap2': () {},
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ہاتھی',
+          'assets/audio/urdu/words/elephant.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/elephant.glb',
+          'ہاتھی',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ہاتھی',
+          'assets/audio/urdu/words/elephant.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/elephant.glb',
+          'ہاتھی',
+        ),
+      );
+    },
     'color1': const Color(0x00e67e22),
     'color2': const Color(0x00d35400),
     'audio1': 'assets/audio/urdu/phonics/chotee-he.mp3',
@@ -584,12 +884,32 @@ List<Map> urduData = [
   },
   {
     'title1': 'ے',
-    'title2': '',
-    'onTap1': () {},
-    'onTap2': () {},
+    'title2': 'ے',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ہاتھی',
+          'assets/audio/urdu/words/elephant.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/elephant.glb',
+          'ہاتھی',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'ہاتھی',
+          'assets/audio/urdu/words/elephant.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/elephant.glb',
+          'ہاتھی',
+        ),
+      );
+    },
     'color1': const Color(0x00c0392b),
     'color2': const Color(0x00cd6155),
     'audio1': 'assets/audio/urdu/phonics/baree-ye.mp3',
-    'audio2': '',
+    'audio2': 'assets/audio/urdu/phonics/baree-ye.mp3',
   },
 ];
