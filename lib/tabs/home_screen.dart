@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn_with_ar_v1/custom_widgets/subject_items.dart';
+import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
 import 'package:learn_with_ar_v1/providers/username_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -66,7 +67,12 @@ class HomeScreen extends StatelessWidget {
                         ],
                       ),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(
+                            context,
+                            UserProfileScreen.routeName,
+                          );
+                        },
                         icon: const Icon(
                           Icons.person,
                           color: Colors.black,
