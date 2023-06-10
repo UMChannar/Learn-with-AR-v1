@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_items.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_english.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_urdu.dart';
 import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
 import 'package:learn_with_ar_v1/providers/username_provider.dart';
 import 'package:provider/provider.dart';
@@ -134,7 +136,11 @@ class HomeScreen extends StatelessWidget {
                       const SizedBox(
                         width: 20,
                       ),
-                      subjectItems('assets/images/urdu.png', () {}),
+                      subjectItems('assets/images/urdu.png', () {
+                        Get.toNamed(
+                          LearnUrdu.routeName,
+                        );
+                      }),
                     ],
                   ),
                   const SizedBox(

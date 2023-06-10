@@ -584,8 +584,12 @@ List<Map> urduData = [
   },
   {
     'title1': 'ے',
+    'title2': '',
     'onTap1': () {},
+    'onTap2': () {},
     'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
     'audio1': 'assets/audio/urdu/phonics/baree-ye.mp3',
+    'audio2': '',
   },
 ];

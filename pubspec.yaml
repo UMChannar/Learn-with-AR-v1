@@ -80,6 +80,8 @@ flutter:
     - assets/audio/english/phonics/
     - assets/audio/english/video/
     - assets/audio/english/words/
+    - assets/audio/urdu/phonics/
+    - assets/audio/urdu/video/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
