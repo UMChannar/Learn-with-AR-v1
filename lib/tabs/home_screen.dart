@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learn_with_ar_v1/custom_widgets/subject_items.dart';
+import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_items.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_english.dart';
 import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
 import 'package:learn_with_ar_v1/providers/username_provider.dart';
 import 'package:provider/provider.dart';
@@ -121,11 +122,19 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      subjectItems('assets/images/english.png'),
+                      subjectItems(
+                        'assets/images/english.png',
+                        () {
+                          Navigator.pushNamed(
+                            context,
+                            LearnEnglish.routeName,
+                          );
+                        },
+                      ),
                       const SizedBox(
                         width: 20,
                       ),
-                      subjectItems('assets/images/urdu.png'),
+                      subjectItems('assets/images/urdu.png', () {}),
                     ],
                   ),
                   const SizedBox(
@@ -133,11 +142,11 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      subjectItems('assets/images/maths.png'),
+                      subjectItems('assets/images/maths.png', () {}),
                       const SizedBox(
                         width: 20,
                       ),
-                      subjectItems('assets/images/animals.png'),
+                      subjectItems('assets/images/animals.png', () {}),
                     ],
                   ),
                   const SizedBox(
@@ -145,7 +154,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      subjectItems('assets/images/bird.png'),
+                      subjectItems('assets/images/bird.png', () {}),
                     ],
                   ),
                 ],

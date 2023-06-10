@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-Widget subjectItems(String subjectPic) {
+Widget subjectItems(String subjectPic, VoidCallback onTap) {
   return Expanded(
     child: GestureDetector(
-      onTap: () {},
+      onTap: onTap,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: Container(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 import 'package:learn_with_ar_v1/initializer/splashScreen.dart';
 import 'package:learn_with_ar_v1/routes/routes.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
     );
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Learn with AR",
       theme: ThemeData(

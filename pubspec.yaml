@@ -47,6 +47,7 @@ dependencies:
   google_ml_kit: ^0.13.0
   google_mlkit_image_labeling: ^0.5.0
   video_player: ^2.6.1
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +77,9 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/
+    - assets/audio/english/phonics/
+    - assets/audio/english/video/
+    - assets/audio/english/words/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
