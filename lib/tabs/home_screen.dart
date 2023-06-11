@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_items.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_animals.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_english.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_urdu.dart';
 import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
@@ -152,7 +153,11 @@ class HomeScreen extends StatelessWidget {
                       const SizedBox(
                         width: 20,
                       ),
-                      subjectItems('assets/images/animals.png', () {}),
+                      subjectItems('assets/images/animals.png', () {
+                        Get.toNamed(
+                          LearnAnimals.routeName,
+                        );
+                      }),
                     ],
                   ),
                   const SizedBox(

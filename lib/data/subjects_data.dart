@@ -913,3 +913,158 @@ List<Map> urduData = [
     'audio2': 'assets/audio/urdu/phonics/baree-ye.mp3',
   },
 ];
+
+// ##########################################################################################
+
+List<Map> animalsData = [
+  {
+    'title1': 'Fox',
+    'title2': 'Cat',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Fox\nOmnivore',
+          'assets/audio/animals/sounds/fox.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/Fox.glb',
+          'Fox',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Cat\nCarnivore',
+          'assets/audio/animals/sounds/cat.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/cat.glb',
+          'Cat',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/animals/words/fox.mp3',
+    'audio2': 'assets/audio/animals/words/cat.mp3',
+  },
+  {
+    'title1': 'Dog',
+    'title2': 'Lion',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Dog\nOmnivore',
+          'assets/audio/animals/sounds/dog.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/dog.glb',
+          'Dog',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Lion\nCarnivore',
+          'assets/audio/animals/sounds/lion.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/lion.glb',
+          'Lion',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/animals/words/dog.mp3',
+    'audio2': 'assets/audio/animals/words/lion.mp3',
+  },
+  {
+    'title1': 'Wolf',
+    'title2': 'Elephant',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Wolf\nCarnivore',
+          'assets/audio/animals/sounds/wolf.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/wolf.glb',
+          'Wolf',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Elephant\nHerbivore',
+          'assets/audio/animals/sounds/elephant.mp3',
+          'https://github.com/UMChannar/Models/raw/master/english/elephant.glb',
+          'Elephant',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/animals/words/wolf.mp3',
+    'audio2': 'assets/audio/animals/words/elephant.mp3',
+  },
+  {
+    'title1': 'Tiger',
+    'title2': 'Cow',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Tiger\nCarnivore',
+          'assets/audio/animals/sounds/tiger.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/tiger.glb',
+          'Tiger',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Cow\nHerbivore',
+          'assets/audio/animals/sounds/cow.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/cow.glb',
+          'Cow',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/animals/words/tiger.mp3',
+    'audio2': 'assets/audio/animals/words/cow.mp3',
+  },
+  {
+    'title1': 'Sheep',
+    'title2': 'Camel',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Sheep\nHerbivore',
+          'assets/audio/animals/sounds/sheep.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/sheep.glb',
+          'Sheep',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'Camel\nHerbivore',
+          'assets/audio/animals/sounds/camel.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/camel.glb',
+          'Camel',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/animals/words/sheep.mp3',
+    'audio2': 'assets/audio/animals/words/camel.mp3',
+  },
+];
