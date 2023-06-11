@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_alphabets_items.dart';
 import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_items.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths_add.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths_digits.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths_shapes.dart';
 import 'package:learn_with_ar_v1/providers/username_provider.dart';
@@ -163,9 +164,9 @@ class LearnMaths extends StatelessWidget {
                                     subjectItems(
                                       'assets/images/math_add.png',
                                       () {
-                                        // Get.toNamed(
-                                        //   LearnBirds.routeName,
-                                        // );
+                                        Get.toNamed(
+                                          LearnMathsAdd.routeName,
+                                        );
                                       },
                                     ),
                                   ],
