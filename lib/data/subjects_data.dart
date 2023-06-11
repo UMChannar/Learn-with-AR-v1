@@ -1068,3 +1068,158 @@ List<Map> animalsData = [
     'audio2': 'assets/audio/animals/words/camel.mp3',
   },
 ];
+
+// ##########################################################################################
+
+List<Map> birdsData = [
+  {
+    'title1': 'Sparrow',
+    'title2': 'Parrot',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'S => Sparrow',
+          'assets/audio/birds/sounds/sparrow.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/sparrow.glb',
+          'Sparrow',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'P => Parrot',
+          'assets/audio/birds/sounds/parrot.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/parrot.glb',
+          'Parrot',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/birds/words/sparrow.mp3',
+    'audio2': 'assets/audio/birds/words/parrot.mp3',
+  },
+  {
+    'title1': 'Crow',
+    'title2': 'Eagle',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'C => Crow',
+          'assets/audio/birds/sounds/crow.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/crow.glb',
+          'Crow',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'E => Eagle',
+          'assets/audio/birds/sounds/eagle.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/eagle.glb',
+          'Eagle',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/birds/words/crow.mp3',
+    'audio2': 'assets/audio/birds/words/eagle.mp3',
+  },
+  {
+    'title1': 'Peacock',
+    'title2': 'Seagull',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'P => Peacock',
+          'assets/audio/birds/sounds/peacock.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/peacock.glb',
+          'Peacock',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'S => Seagull',
+          'assets/audio/birds/sounds/gull.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/seagull.glb',
+          'Seagull',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/birds/words/peacock.mp3',
+    'audio2': 'assets/audio/birds/words/seagull.mp3',
+  },
+  {
+    'title1': 'Lapwing',
+    'title2': 'MockingBird',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'L => Lapwing',
+          'assets/audio/birds/sounds/lapwing.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/lapwing.glb',
+          'Lapwing',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'M => MockingBird',
+          'assets/audio/birds/sounds/mockingbird.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/mocking.glb',
+          'MockingBird',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/birds/words/lapwing.mp3',
+    'audio2': 'assets/audio/birds/words/mockingbird.mp3',
+  },
+  {
+    'title1': 'Pigeon',
+    'title2': 'Finch',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'P => Pigeon',
+          'assets/audio/birds/sounds/pigeon.mp3',
+          'https://github.com/UMChannar/Models/raw/master/birds/pigeon.glb',
+          'Pigeon',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'F => Finch',
+          'assets/audio/birds/sounds/finch.mp3',
+          'https://github.com/UMChannar/Models/raw/master/animals/camsdsel.glb',
+          'Finch',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/birds/words/pigeon.mp3',
+    'audio2': 'assets/audio/birds/words/finch.mp3',
+  },
+];
