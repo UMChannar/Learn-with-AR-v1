@@ -1223,3 +1223,102 @@ List<Map> birdsData = [
     'audio2': 'assets/audio/birds/words/finch.mp3',
   },
 ];
+
+// ##########################################################################################
+
+List<Map> mathsShapesData = [
+  {
+    'title1': 'Square',
+    'title2': 'Rectangle',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'A four-sided shape with all sides of equal lengths',
+          'assets/audio/maths/shapes/square.mp3',
+          'https://github.com/UMChannar/Models/raw/master/shapes/square.glb',
+          'Sqaure',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'A four-sided shape with opposite sides of equal lengths',
+          'assets/audio/maths/shapes/rectanlge.mp3',
+          'https://github.com/UMChannar/Models/raw/master/shapes/rectangle.glb',
+          'Rectangle',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/maths/shapes/square.mp3',
+    'audio2': 'assets/audio/maths/shapes/rectanlge.mp3',
+  },
+  {
+    'title1': 'Circle',
+    'title2': 'Triangle',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'A round shape with no corners or edges',
+          'assets/audio/maths/shapes/circle.mp3',
+          'https://github.com/UMChannar/Models/raw/master/shapes/circle.glb',
+          'Circle',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'A three-sided shape with three straight sides and three angles',
+          'assets/audio/maths/shapes/triangle.mp3',
+          'https://github.com/UMChannar/Models/raw/master/shapes/triangle.glb',
+          'Triangle',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/maths/shapes/circle.mp3',
+    'audio2': 'assets/audio/maths/shapes/triangle.mp3',
+  },
+  {
+    'title1': 'Heart',
+    'title2': 'Diamond',
+    'onTap1': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'A shape that resembles the outline of a heart',
+          'assets/audio/maths/shapes/heart.mp3',
+          'https://github.com/UMChannar/Models/raw/master/shapes/heart.glb',
+          'Heart',
+        ),
+      );
+    },
+    'onTap2': () {
+      Get.toNamed(
+        LwrARScreen.routeName,
+        arguments: LwrARScreenArguments(
+          'A four-sided shape with two pairs of parallel sides',
+          'assets/audio/maths/shapes/diamond.mp3',
+          'https://github.com/UMChannar/Models/raw/master/shapes/diamond.glb',
+          'Diamond',
+        ),
+      );
+    },
+    'color1': const Color(0x00c0392b),
+    'color2': const Color(0x00cd6155),
+    'audio1': 'assets/audio/maths/shapes/heart.mp3',
+    'audio2': 'assets/audio/maths/shapes/diamond.mp3',
+  },
+];
+
+// ##########################################################################################
+
+
