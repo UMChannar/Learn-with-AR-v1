@@ -4,6 +4,7 @@ import 'package:learn_with_ar_v1/initializer/splashScreen.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_animals.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_birds.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_english.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_urdu.dart';
 import 'package:learn_with_ar_v1/modules/user/user_login.dart';
 import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
@@ -21,4 +22,5 @@ var customRoutes = <String, WidgetBuilder>{
   LearnUrdu.routeName: (context) => const LearnUrdu(),
   LearnAnimals.routeName: (context) => const LearnAnimals(),
   LearnBirds.routeName: (context) => const LearnBirds(),
+  LearnMaths.routeName: (context) => const LearnMaths(),
 };

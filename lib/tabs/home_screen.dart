@@ -4,6 +4,7 @@ import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_items.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_animals.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_birds.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_english.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_urdu.dart';
 import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
 import 'package:learn_with_ar_v1/providers/username_provider.dart';
@@ -153,7 +154,14 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      subjectItems('assets/images/maths.png', () {}),
+                      subjectItems(
+                        'assets/images/maths.png',
+                        () {
+                          Get.toNamed(
+                            LearnMaths.routeName,
+                          );
+                        },
+                      ),
                       const SizedBox(
                         width: 20,
                       ),
