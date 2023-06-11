@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_alphabets_items.dart';
-import 'package:learn_with_ar_v1/custom_widgets/subjects/subject_items.dart';
-import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths_digits.dart';
-import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths_shapes.dart';
+import 'package:learn_with_ar_v1/data/subjects_data.dart';
 import 'package:learn_with_ar_v1/providers/username_provider.dart';
 import 'package:learn_with_ar_v1/tabs/tabs_manager.dart';
 import 'package:provider/provider.dart';
 
-class LearnMaths extends StatelessWidget {
-  static const routeName = '/learn-maths';
-  const LearnMaths({super.key});
+class LearnMathsDigits extends StatefulWidget {
+  static const routeName = '/learn-maths-digits';
+  const LearnMathsDigits({super.key});
 
+  @override
+  State<LearnMathsDigits> createState() => _LearnMathsDigitsState();
+}
+
+class _LearnMathsDigitsState extends State<LearnMathsDigits> {
   @override
   Widget build(BuildContext context) {
     late UsernameProvider _usernameProvider;
@@ -66,7 +68,7 @@ class LearnMaths extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                            "Are you ready to enter the world of Maths?",
+                            "Are you ready to learn about Birds?",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleMedium!
@@ -94,7 +96,7 @@ class LearnMaths extends StatelessWidget {
                             padding: const EdgeInsets.all(15.0),
                             child: Center(
                               child: Text(
-                                'Maths\nIts easy peasy!',
+                                'Digits are the \nnumbers from \n0 to 9.',
                                 style: Theme.of(context)
                                     .textTheme
                                     .bodyMedium!
@@ -106,7 +108,7 @@ class LearnMaths extends StatelessWidget {
                           ),
                           const Image(
                             image: AssetImage(
-                              'assets/images/maths.png',
+                              'assets/images/maths_digits.png',
                             ),
                             height: 150,
                             width: 150,
@@ -132,44 +134,17 @@ class LearnMaths extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Row(
-                                  children: [
-                                    subjectItems(
-                                      'assets/images/maths_digits.png',
-                                      () {
-                                        Get.toNamed(
-                                          LearnMathsDigits.routeName,
-                                        );
-                                      },
-                                    ),
-                                    const SizedBox(
-                                      width: 20,
-                                    ),
-                                    subjectItems(
-                                      'assets/images/math_shapes.png',
-                                      () {
-                                        Get.toNamed(
-                                          LearnMathsShapes.routeName,
-                                        );
-                                      },
-                                    ),
-                                  ],
-                                ),
-                                const SizedBox(
-                                  height: 20,
-                                ),
-                                Row(
-                                  children: [
-                                    subjectItems(
-                                      'assets/images/math_add.png',
-                                      () {
-                                        // Get.toNamed(
-                                        //   LearnBirds.routeName,
-                                        // );
-                                      },
-                                    ),
-                                  ],
-                                ),
+                                for (final data in mathsDigitsData)
+                                  EnglishAlphabetItems(
+                                    title1: data['title1'],
+                                    onTap1: data['onTap1'],
+                                    color1: data['color1'],
+                                    audio1: data['audio1'],
+                                    title2: data['title2'],
+                                    onTap2: data['onTap2'],
+                                    color2: data['color2'],
+                                    audio2: data['audio2'],
+                                  ),
                               ],
                             ),
                           ),
