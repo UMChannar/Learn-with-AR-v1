@@ -11,7 +11,7 @@ import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_maths_shapes.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/learn_urdu.dart';
 import 'package:learn_with_ar_v1/modules/user/user_login.dart';
 import 'package:learn_with_ar_v1/modules/user/user_profile.dart';
-import 'package:learn_with_ar_v1/tabs/home_screen.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/home_screen.dart';
 import 'package:learn_with_ar_v1/tabs/tabs_manager.dart';
 
 var customRoutes = <String, WidgetBuilder>{

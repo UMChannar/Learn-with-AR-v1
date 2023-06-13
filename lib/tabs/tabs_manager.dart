@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_with_ar_v1/tabs/home_screen.dart';
+import 'package:learn_with_ar_v1/modules/learn_with_ar/home_screen.dart';
 
 class TabsManager extends StatefulWidget {
   static const routeName = '/tabs-manager';
