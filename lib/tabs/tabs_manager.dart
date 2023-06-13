@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_with_ar_v1/modules/image_recog/image_recog_screen.dart';
 import 'package:learn_with_ar_v1/modules/user/feedback/user_feedback.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/home_screen.dart';
 
@@ -22,7 +23,9 @@ class _TabsManagerState extends State<TabsManager> {
       },
       {},
       {},
-      {},
+      {
+        'page': const ImageRecognitionScreen(),
+      },
       {
         'page': const FeedbackScreen(),
       },
