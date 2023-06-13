@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_with_ar_v1/modules/user/feedback/user_feedback.dart';
 import 'package:learn_with_ar_v1/modules/learn_with_ar/home_screen.dart';
 
 class TabsManager extends StatefulWidget {
@@ -14,7 +15,6 @@ class _TabsManagerState extends State<TabsManager> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     pages = [
       {
@@ -23,7 +23,9 @@ class _TabsManagerState extends State<TabsManager> {
       {},
       {},
       {},
-      {},
+      {
+        'page': const FeedbackScreen(),
+      },
     ];
   }
 
