@@ -93,6 +93,7 @@ flutter:
     - assets/audio/maths/video/
     - assets/audio/image_recog/
     - assets/audio/planets/
+    - assets/audio/quiz/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

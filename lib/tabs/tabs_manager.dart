@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_with_ar_v1/modules/evaluation/evaluation_screen.dart';
 import 'package:learn_with_ar_v1/modules/image_recog/image_recog_screen.dart';
 import 'package:learn_with_ar_v1/modules/observation_with-AR/owr_screen.dart';
 import 'package:learn_with_ar_v1/modules/user/feedback/user_feedback.dart';
@@ -22,7 +23,9 @@ class _TabsManagerState extends State<TabsManager> {
       {
         'page': const HomeScreen(),
       },
-      {},
+      {
+        'page': const EvaluationScreen(),
+      },
       {
         'page': const ObservationwARScreen(),
       },
